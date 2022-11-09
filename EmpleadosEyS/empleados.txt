@@ -1,0 +1,3 @@
+Juan;Lopez;2134;200.0
+Carlos;Gardel;31241;1500.4
+Lucas;Bertiche;4213;11201.0
