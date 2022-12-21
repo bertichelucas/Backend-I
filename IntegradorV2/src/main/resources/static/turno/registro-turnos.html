@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Perez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <script src="./registrarTurno.js"></script>
+</head>
+<body>
+    <div class="header"></div>
+    <form class="border border-dark rounded w-50 mx-auto my-3" style="width: 200px;">
+        <h3>Registro Turno</h3>
+        <div class="form-group">
+            <label for="exampleInputPassword1">ID Paciente</label>
+            <input type="number" class="form-control" id="idpaciente" placeholder="Id paciente" name="idpaciente" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">ID Odontologo</label>
+            <input type="number" class="form-control" id="idodontologo" placeholder="Id odontologo" name="idodontolgo" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Fecha del Turno</label>
+            <input type="date" class="form-control" id="fechaTurno" name="fechaTurno" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+<script src="../header/header.js"></script>
+</html>

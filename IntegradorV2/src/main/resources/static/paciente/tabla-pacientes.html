@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odontologos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./pacientes.js"></script>
+    
+</head>
+<body>
+    <div class="header"></div>
+<div class="border border-dark rounded w-50 mx-auto my-3" style="width: 200px;">
+    <h3>Tabla  de Pacientes</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">DNI</th>
+            <th scope="col">fechaIngreso</th>
+            <th scope="col">Domicilio</th>
+            <th scope="col">email</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<div class="input-group mb-3 border border-dark rounded w-50 mx-auto my-3">
+    <input type="number" class="form-control" placeholder="Id del paciente" id= "dltInput">
+    <div class="input-group-append">
+    <button class="btn btn-outline-secondary"  id="dltButton" type="button">Eliminar Paciente</button>
+    </div>
+</div>
+
+<div class="input-group mb-3 border border-dark rounded w-50 mx-auto my-3">
+    <input type="number" class="form-control" placeholder="Id del paciente" id="SearchInput">
+    <div class="input-group-append">
+    <button class="btn btn-outline-secondary" id="SearchButton" type="button">Buscar Paciente</button>
+    </div>
+</div>
+
+<div class="input-group mb-3 border border-dark rounded w-50 mx-auto my-3">
+    <input type="text" class="form-control" placeholder="email del paciente" id="SearchInputEmail">
+    <div class="input-group-append">
+    <button class="btn btn-outline-secondary" id="SearchButtonEmail" type="button">Buscar Paciente por Email</button>
+    </div>
+</div>
+
+</body>
+<script src="../header/header.js"></script>
+</html>
