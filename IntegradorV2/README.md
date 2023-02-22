@@ -2,7 +2,9 @@
 
 ## A fully functional example project written in Java showing a simple REST API.
 
-This project is an example that was built along the Digital House Certified's Tech Developer career. This project the following tecnologies:
+This project is an example that was built along the Digital House's Certified Tech Developer career. It is a simple REST API that allows the registration of dentists and patients and allows to make appointments between them.
+
+This project the following tecnologies:
 
 * IntellijIDEA environment
 * Java SpringBoot with JPA and Hibernate.
