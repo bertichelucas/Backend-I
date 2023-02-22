@@ -13,7 +13,7 @@ This project is an example that was built along the Digital House Certified's Te
 
 ## Example Picture
 
-<img src="https://wallpapers.com/images/featured/en3dnh2zi84sgt3t.jpg" alt="Project's Image"/>
+<img src="https://github.com/bertichelucas/Portfolio/blob/main/src/assets/clinica.png" alt="Project's Image"/>
 
 ##How to install this Example Project 
 
