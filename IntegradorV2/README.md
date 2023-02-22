@@ -17,7 +17,7 @@ This project the following tecnologies:
 
 <img src="https://github.com/bertichelucas/Portfolio/blob/main/src/assets/clinica.png" alt="Project's Image"/>
 
-##How to install this Example Project 
+## How to install this Example Project 
 
 1. Clone this project
 2. Open the project's folder with intellijIDEA
